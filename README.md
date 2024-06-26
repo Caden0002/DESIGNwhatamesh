@@ -9,6 +9,7 @@
 This project shows how to create a moving mesh gradient background for your website <br />
 
 Learn more about mesh gradients here:<br />
+https://medium.com/design-bootcamp/bringing-life-to-your-website-with-moving-mesh-gradient-backgrounds-20b7e26844a2
 
 ## Tech Stack ##
 React<br />
