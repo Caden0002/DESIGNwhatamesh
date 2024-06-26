@@ -1,0 +1,35 @@
+
+
+
+@keyframes moveBackground {
+    0% { background-size: 100% 100%; }
+    10% { background-size: 120% 80%; }
+    20% { background-size: 190% 140%; }
+    30% { background-size: 130% 110%; }
+    40% { background-size: 150% 120%; }
+    50% { background-size: 180% 100%; }
+    60% { background-size: 220% 80%; }
+    70% { background-size: 100% 50%; }
+    80% { background-size: 120% 70%; }
+    90% { background-size: 110% 90%; }
+    100% { background-size: 100% 100%; }
+}
+
+
+
+@keyframes colorCycle {
+    0%, 100% { color: rgb(255, 255, 255); }
+    10% { color: rgba(217, 175, 175, 1); }
+    20% { color: rgba(172, 126, 126, 1); }
+    30% { color: rgba(122, 87, 87, 1); }
+    40% { color: rgba(91, 69, 69, 1); }
+    50% { color: rgba(53, 43, 43, 1); }
+    60% { color: rgba(91, 69, 69, 1); }
+    70% { color: rgba(122, 87, 87, 1); }
+    80% { color: rgba(172, 126, 126, 1); }
+    90% { color: rgb(255, 255, 255); }
+}
+
+.color-animate {
+  animation: colorCycle 10s linear infinite;
+}

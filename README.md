@@ -1,8 +1,19 @@
-# React + Vite
+![](https://github.com/Caden0002/DESIGNMeshGradient/blob/main/meshgradient.gif)
+#### How to Install and Run the Project ####
+1. Open Terminal at the project's CD<br />
+2. rm -rf node_modules && rm package-lock.json && npm install<br />
+3. npm run dev<br />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# DESIGNMeshGradient
+This project shows how to create a moving mesh gradient background for your website <br />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Learn more about mesh gradients here:<br />
+
+## Tech Stack ##
+React<br />
+Tailwind<br />
+CSS<br />
+
+
+

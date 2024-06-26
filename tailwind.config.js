@@ -15,7 +15,7 @@ module.exports = {
       },
 
       fontFamily: {
-        OldSTT: ['Old Standard TT', 'serif'],
+        Julius: ['Julius Sans One', 'serif'],
       },
 
       colors: {
