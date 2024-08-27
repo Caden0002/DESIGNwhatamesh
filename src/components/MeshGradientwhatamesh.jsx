@@ -24,14 +24,40 @@ function MeshGradientwhatamesh() {
           left: 0,
           width: "100%",
           height: "100%",
-          "--gradient-color-1": "#b851b1",
-          "--gradient-color-2": "#6ec3f4",
-          "--gradient-color-3": "#f8a6a6",
+          "--gradient-color-1": "#dca8d8",
+          "--gradient-color-2": "#a3d3f9",
+          "--gradient-color-3": "#fcd6d6",
         }}
       />
 
       <div className="container h-screen mx-auto flex justify-center items-center relative">
         <div className="flex flex-col justify-start px-48 space-y-12 z-10">
+          {/* Style tag for inline keyframes */}
+          <style>
+            {`
+              @keyframes colorCycle {
+                0% {
+                  color: black;
+                }
+                25% {
+                  color: black;
+                }
+                50% {
+                  color: white;
+                }
+                75% {
+                  color: white;
+                }
+                100% {
+                  color: black;
+                }
+              }
+
+              .color-animate {
+                animation: colorCycle 6s linear infinite;
+              }
+            `}
+          </style>
           <div className="text-5xl color-animate font-Julius tracking-[16px] leading-normal">
             {Header}
           </div>
