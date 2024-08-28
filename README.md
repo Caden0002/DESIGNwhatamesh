@@ -11,7 +11,7 @@
 This project shows how to create a moving mesh gradient background for your website using Stripe Mesh Gradient WebGL Package<br />
 
 Learn more about mesh gradients here:<br />
-https://medium.com/design-bootcamp/bringing-life-to-your-website-with-moving-mesh-gradient-backgrounds-20b7e26844a2
+https://medium.com/design-bootcamp/moving-mesh-gradient-background-with-stripe-mesh-gradient-webgl-package-6dc1c69c4fa2
 
 ## Tech Stack
 
